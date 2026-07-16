@@ -3,6 +3,12 @@
 This repo is for reproducing the CIFAR-100 experimental results in our paper Trustworthy Knowledge Distillation via Anchor-Guided Distribution Learning.
 
 
+First, run:
+
+```sh
+bash scripts/fetch_pretrained_teachers_fixed.sh
+```
+
 To perform knowledge transfer from Resnet32x4 to Resnet8x4 on CIFAR-100 using AKD, run:
 
 ```sh
